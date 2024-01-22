@@ -115,7 +115,7 @@ cd ..
 # EXTRACT PACKAGE CONTENT
 mkdir base
 tar fx $APP.AppDir/.junest/var/cache/pacman/pkg/$APP*.zst -C ./base/
-VERSION=$(cat ./base/.PKGINFO | grep pkgver | cut -c 10-)
+VERSION=$(cat ./base/.PKGINFO | grep pkgver | cut -c 10- | sed 's@.*:@@')
 mkdir deps
 for arg in $DEPENDENCES; do
 	for var in $arg; do
