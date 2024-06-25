@@ -212,7 +212,7 @@ rm -R -f ./$APP.AppDir/.junest/var/* #REMOVE ALL PACKAGES DOWNLOADED WITH THE PA
 
 # SAVE FILES USING KEYWORDS
 BINSAVED="gui" # Enter here keywords to find and save in /usr/bin
-SHARESAVED="SAVESHAREPLEASE" # Enter here keywords or file/folder names to save in both /usr/share and /usr/lib
+SHARESAVED="icons" # Enter here keywords or file/folder names to save in both /usr/share and /usr/lib
 LIBSAVED="guile" # Enter here keywords or file/folder names to save in /usr/lib
 
 # STEP 2, FUNCTION TO SAVE THE BINARIES IN /usr/bin THAT ARE NEEDED TO MADE JUNEST WORK, PLUS THE MAIN BINARY/BINARIES OF THE APP
