@@ -3,7 +3,7 @@
 # NAME OF THE APP BY REPLACING "SAMPLE"
 APP=aisleriot
 BIN="sol"
-DEPENDENCES="dconf guile libcanberra librsvg"
+DEPENDENCES="dconf guile libcanberra librsvg adwaita-cursors"
 #BASICSTUFF="binutils debugedit gzip"
 #COMPILERS="base-devel"
 
