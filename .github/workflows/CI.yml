@@ -18,8 +18,7 @@ jobs:
       if: always()
       run: |
         sudo apt update
-        sudo apt install libfuse2 desktop-file-utils
-        wget https://raw.githubusercontent.com/ivan-hc/Aisleriot-appimage/main/aisleriot-junest.sh
+        sudo apt install desktop-file-utils
         chmod a+x ./aisleriot-junest.sh
         ./aisleriot-junest.sh
         mkdir dist
