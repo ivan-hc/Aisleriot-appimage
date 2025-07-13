@@ -1,2 +1,2 @@
 https://github.com/ivan-hc/Aisleriot-appimage/releases/download/continuous/AisleRiot-Solitaire_3.22.35-1-archimage4.3-x86_64.AppImage
-Sat Jul 12 01:21:06 UTC 2025
+Sun Jul 13 01:26:40 UTC 2025
